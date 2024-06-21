@@ -95,9 +95,6 @@ void breadth_first_search(int adj[][MAX], int visited[], int start) {
 	}
 }
 
-
-
-
 void depthFirstSearchAdjMat2(int adj[][MAX], int visited, int start) {
 	int stack[MAX], top = -1, i; 
 	printf("%d", start); 
