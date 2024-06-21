@@ -288,7 +288,6 @@ void right_rotate(BSTNODE x) {
 	return x; 
 }
 
-
 void left_rotate(BSTNODE x) { 
 	// bf(x) = -2, bf(x->right) <= 0
 	/*
@@ -316,8 +315,6 @@ void left_rotate(BSTNODE x) {
 	y->height = max(height(y->left), height(y->right)); 
 	return x; 
 }
-
-
 
 void heap_sort(int a[], int n) {
 /*
@@ -347,7 +344,6 @@ void _swapPositions(int a[], int i, int j) {
 	a[j] = temp; 
 	return; 
 }
-
 
 void breadth_first_graph(int adj[][MAX], int visited, int start) {
 	int queue[MAX], rear = -1, front = -1, i; 
@@ -384,7 +380,6 @@ void post_order_traverse(BSTNODE root) {
 	printf("%d", root); 
 }
 
-
 void pre_order_traverse(BSTNODE root) { 
 	/*
 		X
@@ -420,8 +415,6 @@ void depthFirstTree(BSTNODE root) {
 		if (node->left) stack[++top] = node->left; 
 	}
 }
-
-
 
 void heapify_down(int heap, int index, int n) { 
 	/*
