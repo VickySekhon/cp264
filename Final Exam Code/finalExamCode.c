@@ -747,8 +747,6 @@ STATS statsLinkedList(LISTNODE *start) {
 	return stats;
 }
 
-
-
 void in_order_traversal(BSTNODE root) {
 	// left subtree, root, right subtree
 	/*
@@ -781,7 +779,6 @@ void rotate_left(BSTNODE x) {
 	y->height = max(height(y->right), height(y->left)); 
 }
 
-
 void bfs_bst(BSTNODE root) { 
 	if (!root) {
 		return;
@@ -796,8 +793,6 @@ void bfs_bst(BSTNODE root) {
 		if (val->right) queue[++rear] = val->right;
 	}
 }	
-
-
 
 //Write C functions to insert an element, to delete elements, search in a singly linked list.
 void insertSinglyLinked(SL list, int key) {
@@ -850,7 +845,6 @@ int searchSinglyLinkedList(SL list, int key){
 	return -1; 
 }
 
-
 // Write a C function to display element backward from a singly linked list using iterative algorithm with auxiliary data structure.
 void reverseSinglyLinkedList(SL list) {
 	if (list->head != NULL){
@@ -879,9 +873,7 @@ void displayBackwardsUsingStack(Stack stack, SL list) {
 	}
 }
 
-
 // For binary tree, write C functions to do traversal (in pre-order, in-order and post-order), depth-first-order, breath-first-order, to compute number of nodes, height, number of leaves. 
-
 // preorder (root, left tree, right tree)
 BSTNODE treePreOrderTraversal(BSTNODE root) {
 	if (root == NULL) return 
