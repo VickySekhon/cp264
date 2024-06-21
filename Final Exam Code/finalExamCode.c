@@ -173,10 +173,6 @@ void heapSort(int a[], int n) {
 	}
 }
 
-
- 
-
-
 void breadthFirstSearchAdjMatrix(int adj[][MAX], int visited, int start) {
 	int queue[MAX], front = -1, rear = -1, i; 
 	queue[++rear] = start; 
@@ -193,7 +189,6 @@ void breadthFirstSearchAdjMatrix(int adj[][MAX], int visited, int start) {
 	}
 
 }
-
 
 void depthfirst(int adj[][MAX], int visited[], int start) {
 	int stack[MAX], top = -1, i; 
