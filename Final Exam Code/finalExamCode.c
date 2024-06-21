@@ -19,8 +19,6 @@ void depthFirstSearchGraph(int adj[][MAX], int visited, int start) {
 	return; 
 }  
 
-
-
 void depthfirstgrpah(int adj[][MAX], int visited, int start) {
 	int stack[MAX], top = -1, i; 
 	stack[++top] = start;
