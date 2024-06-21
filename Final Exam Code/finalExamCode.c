@@ -567,8 +567,6 @@ Delete  O(h)     O(log n)   O(log n), O(log n)
 
 6. Insert a given sequence of key values into BST, AVL
 
-YESSSS
-
 1) x
     \ 
      x      rotate left 
@@ -673,8 +671,6 @@ STATS statsLinkedList(LISTNODE *start) {
 	stats.count = count; 
 	return stats;
 }
-
-
 
 1. Write C functions to insert an element, to delete elements, search in a singly linked list.
 2. Write a C function to display element backward from a singly linked list using iterative algorithm with auxiliary data structure.
