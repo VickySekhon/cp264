@@ -114,7 +114,6 @@ void depthFirstSearchAdjMat2(int adj[][MAX], int visited, int start) {
 	}
 }
 
-
 int bstInsert2(BSTNODE root, int key) {
 	BSTNODE node = (BSTNODE *)(malloc(sizeof(BSTNODE))); 
 	if (node) {
