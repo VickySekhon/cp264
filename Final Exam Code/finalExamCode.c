@@ -187,7 +187,6 @@ void breadthFirstSearchAdjMatrix(int adj[][MAX], int visited, int start) {
 			}
 		}
 	}
-
 }
 
 void depthfirst(int adj[][MAX], int visited[], int start) {
